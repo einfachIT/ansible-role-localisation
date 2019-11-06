@@ -5,18 +5,18 @@
     name: Asia/Kabul
 
 - name: install keyboard-configuration
-  become: yes
+  become: true
   apt:
     name: keyboard-configuration
     state: present
   when: ansible_os_family == 'Debian'
 
 - name: write keyboard configration
-  become: yes
+  become: true
   template:
     src: keyboards.j2
     dest: /etc/default/keyboard
-    force: yes
+    force: true
     owner: root
     group: root
     mode: 'u=rw,go=r'

@@ -6,10 +6,9 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: debian-stretch
-    box: debian:stretch
-  - name: debian-buster 
-    box: debian:buster
+  - name: stretch
+    image: debian
+    image_version: 9
 provisioner:
   name: ansible
   lint:
