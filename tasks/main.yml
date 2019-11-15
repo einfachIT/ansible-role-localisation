@@ -2,7 +2,7 @@
 
 - name: Set timezone to
   timezone:
-    name: {{ location_timezone }}
+    name: '{{ loc_timezone }}'
 
 - name: install keyboard-configuration
   become: true
