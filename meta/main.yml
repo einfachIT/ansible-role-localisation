@@ -15,6 +15,6 @@ galaxy_info:
       versions:
         - stretch
 
-  galaxy_tags: [einfachIT, timezone, keyboard]
+  galaxy_tags: [einfachit, timezone, keyboard]
 
 dependencies: []
