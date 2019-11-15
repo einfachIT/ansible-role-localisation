@@ -1,4 +1,6 @@
 ---
+localisation_timezone: "Asia/Kabul"
+
 # The XKB keyboard model name.
 keyboard_model: pc104
 

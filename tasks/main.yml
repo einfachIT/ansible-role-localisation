@@ -2,7 +2,7 @@
 
 - name: Set timezone to
   timezone:
-    name: Asia/Kabul
+    name: {{ location_timezone }}
 
 - name: install keyboard-configuration
   become: true
