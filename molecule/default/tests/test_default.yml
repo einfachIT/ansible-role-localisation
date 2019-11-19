@@ -2,7 +2,7 @@
 
 ---
 file:
-  /tmp:
+  /etc/hosts:
     exists: true
     owner: root
     group: root
