@@ -7,4 +7,4 @@
 - name: trigger udev input change
   become: true
   command: udevadm trigger --subsystem-match=input --action=change
-  when: ansible_os_family == 'Debian'
+  when: ansible_lsb.id == 'Raspbian'
