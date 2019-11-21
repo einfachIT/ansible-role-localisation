@@ -22,3 +22,4 @@
     mode: 'u=rw,go=r'
   notify:
     - dpkg-reconfigure keyboard-configuration
+    - trigger udev input change
