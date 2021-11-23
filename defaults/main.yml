@@ -1,14 +1,17 @@
 ---
-loc_timezone: "Asia/Kabul"
+loc_timezone: "Europe/Zurich"
+
+language: 'de_CH'
+encoding: 'UTF-8'
 
 # The XKB keyboard model name.
 keyboard_model: pc104
 
 # The XKB keyboard layout name.
-keyboard_layout: us
+keyboard_layout: de
 
 # The XKB keyboard variant components.
-keyboard_variant: ''
+keyboard_variant: de
 
 # The XKB keyboard option components.
 keyboard_options: ''

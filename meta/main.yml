@@ -2,6 +2,7 @@
 galaxy_info:
   role_name: localisation
   author: Bassinator
+  namespace: einfachit
   description: Sets the timezone as well es keyboard variant
   company: einfach IT
 

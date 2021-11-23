@@ -6,8 +6,7 @@ driver:
 lint: |
   set -e
   yamllint .
-  ansible-lint -x 503
-  flake8
+  ansible-lint
 platforms:
   - name: instance
     image: debian:9

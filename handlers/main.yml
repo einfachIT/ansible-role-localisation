@@ -4,6 +4,11 @@
   command: /usr/sbin/dpkg-reconfigure -f noninteractive keyboard-configuration
   when: ansible_os_family == 'Debian'
 
+- name: dpkg-reconfigure locales
+  become: true
+  command: /usr/sbin/dpkg-reconfigure -f noninteractive locales
+  when: ansible_os_family == 'Debian'
+
 - name: trigger udev input change
   become: true
   command: udevadm trigger --subsystem-match=input --action=change
